@@ -5,6 +5,12 @@ A Christianity-focused AI assistant built with RAG, Gemini, FAISS, FastAPI, and 
 ![Faith AI Demo] 
 https://github.com/user-attachments/assets/8fa9dd8c-c88b-4a79-92a3-ee04c1791dd4
 
+
+
+https://github.com/user-attachments/assets/c6b92eea-636a-46a5-929a-9f1f9fe1aa6c
+
+
+
 ---
 
 ## 🎬 Demo
