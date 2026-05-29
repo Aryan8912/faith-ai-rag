@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faith AI — Scripture-Grounded Christian Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div class="app">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-cross">✝</span>
+          <div>
+            <h1>Faith AI</h1>
+            <p>Scripture-Grounded Christian Assistant</p>
+          </div>
+        </div>
+        <div class="tabs">
+          <button class="tab active" id="tab-chat">💬 Chat</button>
+          <button class="tab" id="tab-image">🖼️ Images</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- Chat Panel -->
+      <div class="panel" id="panel-chat">
+        <div class="messages" id="messages"></div>
+        <div class="input-area">
+          <div class="input-box">
+            <textarea id="chat-input" placeholder="Ask about Scripture, theology, prayer, or faith..." rows="2"></textarea>
+            <button id="send-btn" class="send-btn">Send</button>
+          </div>
+          <p class="hint">Press Enter to send · Shift+Enter for new line</p>
+        </div>
+      </div>
+
+      <!-- Image Panel -->
+      <div class="panel hidden" id="panel-image">
+        <div class="image-container">
+          <div class="image-header">
+            <h2>Christian Image Generation</h2>
+            <p>Generate reverent, uplifting Christian artwork powered by Imagen</p>
+          </div>
+          <div class="image-input-area">
+            <textarea id="image-input" placeholder="e.g. Jesus walking on water at sunrise..." rows="3"></textarea>
+            <button id="generate-btn" class="generate-btn">✨ Generate Image</button>
+          </div>
+          <div id="image-result"></div>
+          <div class="example-prompts">
+            <p>Try these:</p>
+            <div class="prompt-chips" id="prompt-chips"></div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
