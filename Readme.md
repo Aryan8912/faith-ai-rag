@@ -2,7 +2,7 @@
 
 A Christianity-focused AI assistant built with RAG, Gemini, FAISS, FastAPI, and Vite.
 
-![Faith AI Demo](https://img.shields.io/badge/demo-loom-blue) ![Python](https://img.shields.io/badge/python-3.12-green) ![FastAPI](https://img.shields.io/badge/FastAPI-0.136-green) ![LangChain](https://img.shields.io/badge/LangChain-1.4-orange)
+![Faith AI Demo]https://github.com/user-attachments/assets/8fa9dd8c-c88b-4a79-92a3-ee04c1791dd4
 
 ---
 
